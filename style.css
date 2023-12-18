@@ -1,0 +1,126 @@
+:root {
+    --primary-Sof_blue: hsl(215, 51%, 70%);
+    --primary-Cyan: hsl(178, 100%, 50%);
+
+    /* main-bg */
+    --neutral-main-Very_dark_blue: hsl(217, 54%, 11%);
+
+    /* card-bg */
+    --neutral-card-Very_dark_blue: hsl(216, 50%, 16%);
+
+    /* line */
+    --neutral-line-Very_dark_blue: hsl(215, 32%, 27%);
+
+    --neutral-White: hsl(0, 0%, 100%);
+}
+
+@font-face {
+    font-family: 'Outfit' , sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* typography */
+h1 {
+    font-family: 'outfit',sans-serif;
+    font-weight: 600;
+    color: var(--neutral-White);
+    margin-right: 0.5rem;
+    width: 230px;
+    font-size: 25px;
+}
+
+.price-in-eth {
+    color: var(--primary-Cyan);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.left-time,
+.nft-description,
+.info
+ {
+    color: var(--primary-Sof_blue);
+    font-family: 'outfit', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.nft-description {
+    line-height: 1.5rem;
+}
+
+
+main{
+    height: 100vh;
+    background-color: var(--neutral-main-Very_dark_blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--neutral-card-Very_dark_blue);
+    padding: 1.3rem;
+    gap: 0.7rem;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    border-radius: 12px;
+}
+
+.price-and-info {
+    display: flex;
+    font-family: 'outfit',sans-serif;
+    
+}
+
+.profile-pic {
+    gap: 0.8rem;
+}
+
+.line {
+    width: 250px;
+    height: 2px;
+    background-color: var(--neutral-line-Very_dark_blue);
+    margin-bottom: 0.9rem;
+}
+
+.creation-of {
+    display: flex;
+    gap: 0.5rem;
+    height: 30px;
+    align-items: center;
+    width: 250px;
+}
+
+.name-of-creator {
+    color: var(--neutral-White);
+}
+
+.price-and-info {
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+}
+
+.eq-pic {
+    border-radius: 12px;
+}
+
+.left-time {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
